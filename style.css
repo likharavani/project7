@@ -132,6 +132,12 @@ ul{
     .container3{
         height:250vh;
     }
+    .helo1{
+        flex-direction: column!important;
+    }
+    .cont1,.cont2{
+        margin-top: 2rem!important;
+    }
 }
 
 .col-12 > img:hover{
