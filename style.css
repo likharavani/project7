@@ -62,7 +62,7 @@ html{
     height: 100%;
     z-index: -1;
     background-color: rgb(206, 226, 233);
-    clip-path: polygon(0 14%, 100% 0, 100% 87%, 0% 100%);
+    clip-path: polygon(0 8%, 100% 0, 100% 87%, 0% 100%);
 }
 .icons1{
     
