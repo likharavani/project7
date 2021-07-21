@@ -134,6 +134,10 @@ ul{
     }
 }
 
+.col-12 > img:hover{
+opacity: 1!important;
+cursor: pointer;
+}
 .border{
   border: 2px solid grey;
   border-radius: 10px;
@@ -149,6 +153,10 @@ ul{
 .box ul li a{
     font-size: 0.9rem;
 }
-.col-12 ul li a, .col-12 h5 {
-    color:rgb(182, 182, 182);
+.col-12 ul li a, .col-12 > h5, .col-12 >h3 , .col-12 >p ,.icons i {
+    color:rgb(114, 114, 114);
+    font-size: 1.2rem;
+}
+.icons i{
+    font-size: 2rem;
 }
