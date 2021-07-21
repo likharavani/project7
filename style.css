@@ -24,6 +24,7 @@ html{
 .container1{
     position: relative;
     height:100vh;
+    
 }
 .container1::before{
     content: "";
@@ -46,13 +47,22 @@ html{
     height: 100%;
     background-color:#6900c7;
     
-    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
 }
 .container3{
     height:170vh;
     position: relative;
+
 }
 
+.helo{
+    position: absolute;
+    top:50%;
+    width:100%;
+    height:100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
 .container3::before{
     content: "";
     position: absolute;
@@ -62,7 +72,7 @@ html{
     height: 100%;
     z-index: -1;
     background-color: rgb(206, 226, 233);
-    clip-path: polygon(0 8%, 100% 0, 100% 87%, 0% 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 95%, 0% 100%);
 }
 .icons1{
     
@@ -98,11 +108,11 @@ ul{
         width:100%;
     }
     .container1{
-        height:170vh;
+        height:150vh;
     }
     
     .container3{
-        height:250vh;
+        height:230vh;
     }
     html{
         font-size: 80%;
@@ -117,10 +127,10 @@ ul{
         margin:1rem 0rem;
     }
     .container1{
-        height:160vh;
+        height:140vh;
     }
     .container3{
-        height:280vh;
+        height:250vh;
     }
 }
 
