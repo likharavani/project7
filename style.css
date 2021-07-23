@@ -117,9 +117,7 @@ ul{
     html{
         font-size: 80%;
     }
-    .col-12 img{
-        width: 150px !important;;
-    }
+
 }
 @media only screen and (max-width:560px)
 {
