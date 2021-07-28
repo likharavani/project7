@@ -112,7 +112,7 @@ ul{
     }
     
     .container3{
-        height:230vh;
+        height:150vh;
     }
     html{
         font-size: 80%;
@@ -138,6 +138,14 @@ ul{
     }
 }
 
+@media only screen and (max-width:425px){
+    .container1{
+        height:200vh;
+    }
+    .container3{
+        height:300vh;
+    }
+}
 .col-12 > img:hover{
 opacity: 1!important;
 cursor: pointer;
